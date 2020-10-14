@@ -1,0 +1,66 @@
+/*general style*/
+main { width: 50vw;height:auto} 
+
+.photo-part ,.account-part  {box-shadow: 5vh; border-radius: 20px   }
+.photo-part {padding: 2vh 7vw;width: 22vw}
+.account-part {padding: 1vh 3vw;width: 30vw; margin: 4vh 0vw }
+.privecy-part {box-shadow: 20px; width: 44vw;padding: 0 3vw;}
+.social-media {box-shadow: 20px;}
+header {box-shadow: 12px;height: 40vh;}
+.account-part img {width: 2rem}
+.privecy-part img {width: 2rem}
+.social-media img {width: 2rem}
+#profil-photo {width: 13vw;height:13vw; background-color:whitesmoke;border-radius: 50%;box-shadow: slategray; box-shadow:20px;}
+#camera-photo {position: relative; top: -5vh;right: -3vw; width: 3vw;height: auto }
+.photo-part {position: relative;top: -16vh;}
+figure {position: relative;top:-18vh}
+
+/* blue circle outside*/
+
+.circle-small {background-color: rgb(139, 154, 233);width: 5rem;height:5rem ;border-radius:50%;
+position: relative;left: -30vw;top:20vh}
+
+.circle-medium {background-color: rgb(139, 154, 233);width: 8rem;height:8rem ;border-radius: 50%;
+    position: relative;left: 38vw;top: -20vh;}
+.circle-big-left {background-color: rgb(139, 154, 233);width: 10rem;height:10rem ;border-radius: 50%;
+        position: relative;right: 48vw;top: 70vh;}    
+.circle-big-right {background-color: rgb(139, 154, 233);width: 10rem;height:10rem ;border-radius: 50%;
+            position: relative;left: 45vw;bottom: -195vh;}   
+     
+
+            /* blue circle inside*/
+header :nth-child(2) {width: 10rem;height: 10rem; border-radius: 50%; background-color:rgb(139, 154, 233);
+    position: relative;top: 10vh;left:-5vw;} 
+header :nth-child(3) {width: 3rem;height: 3rem; border-radius: 50%; background-color:rgb(139, 154, 233) ;
+    position: relative;top: 3vh;left:5vw;}          
+header :nth-child(4) {width: 4rem;height: 4rem; border-radius: 50%; background-color:rgb(139, 154, 233);
+    position: relative;left: 3rem; } 
+    header:nth-child(1){order: -1;} 
+/*color style*/
+
+.white-big-part {background-color: whitesmoke;}
+body {background-color: darkgrey; border: black;}
+ 
+header {color: white; padding: 0px 30px;background-color: blue}
+header p {font-size: 50px}
+.photo-part ,.account-part, .privecy-part {background-color: white;  }
+
+/*layout style*/
+
+body {display: flex;flex-direction: column;align-items: center;j}
+main {display :flex ; flex-direction: column} 
+.white-big-part {display: flex;flex-direction: column ;align-items: center ;}
+.account-part {display: flex;  flex-direction: column }
+.photo-part  {display: flex;  flex-direction: column ; align-items: center;justify-content: space-around;}
+.privecy-part {display: flex; justify-content: space-between;align-items: stretch;}
+header {display: flex;justify-content: space-around;}
+
+
+
+figure {display: flex;align-items: center;flex-direction: column;}
+
+
+section div {display: flex;justify-content: space-between;}
+
+
+
